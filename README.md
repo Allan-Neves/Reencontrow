@@ -15,7 +15,7 @@ Esse é um código que eu fiz com a ajuda do [Jefferson Vasconcellos](https://ww
 
 ## Aprendizados
 
-Com este projeto, aprendi ainda mais sobre responsividade e flex-box!
+Com este projeto, aprendi ainda mais sobre responsividade e flex-box! Consegui usufruir ainda mais a propriedade transform junto da pseudo-class :hover.
 
 ## Como Executar o Projeto
 
