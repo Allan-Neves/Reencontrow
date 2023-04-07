@@ -27,7 +27,8 @@ span {
 .section-1 {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    align-items: center;
+    margin-top: 108px;
 }
 
 .area-title h3 {
@@ -39,12 +40,16 @@ span {
     color: white;
     font-size: 43px;
     line-height: 50px;
-    margin-top: -18px;
+}
+
+.area-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .image-1 img {
     height: 279px;
-    margin-top: 28px;
     margin-left: 80px;
 }
 
@@ -148,7 +153,16 @@ span {
     color: white;
     font-size: 20px;
     font-weight: normal;
-    margin-top: -23px;
+}
+
+.area-title-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.area-title-2 a {
+    text-align: center;
 }
 
 /* BUTTON 2 */
@@ -312,7 +326,6 @@ span {
 
 .social {
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -343,6 +356,15 @@ span {
         text-align: center;
     }
 
+    .area-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .button {
+        max-width: 150px;
+    }
+
     .section-1 img {
         margin-top: 50px;
         margin-right: 55px;
@@ -358,10 +380,6 @@ span {
         transform: scale(0.98);
     }
 
-    .section-cards h2 {
-        margin-left: 24px;
-    }
-
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -369,14 +387,14 @@ span {
     }
 
     .card {
-        margin-bottom: 19px;
+        margin-bottom: 25px;
     }
     
 }
 
 @media screen and (max-width: 890px) {
 
-    .image-2 img {
+    .image-2 {
         margin-left: 70px;
         width: 250px;
     }
@@ -385,7 +403,7 @@ span {
 
 @media screen and (max-width: 800px) {
 
-    .image-2 img {
+    .image-2 {
         margin-left: 70px;
         width: 200px;
     }
@@ -398,116 +416,38 @@ span {
         overflow-x: hidden;
     }
 
-    .area-title {
-        margin-bottom: 110px;
+    .image-2 {
+        display: none;
+    }
+    
+    .area-title-2 {
+        text-align: center;
     }
 
     .section-3 {
-        display: block;
-        text-align: center;
-        width: auto;
+        margin-top: 250px;
     }
+}
 
-    .section-3 h1 {
-        padding-top: 50px;
+@media screen and (max-width: 510px) {
+    .button {
+        margin-bottom: 100px;
     }
 
     .img-1 {
         display: none;
     }
-    
-    .image-2 img {
-        position: relative;
-        top: 135px;
-        right: 30px;
-        width: 250px;
-    }
 
-    .area-form {
-        margin-top: 415px;
-    }
-
-}
-
-@media screen and (max-width: 740px) {
-
-    header {
-        margin-right: 19px;
-    }
-
-    .section-1 h1 {
-        text-align: center;
-        font-size: 30px;
-        margin-right: 20px;
-    }
-
-    .section-1 h3 {
-        text-align: center;
-        font-size: 15px;
-        margin-right: 15px;
-    }
-
-    .button {
-        margin-right: 17px;
-    }
-
-    .section-1 img {
-        width: 280px;
-        height: 200px;
-        margin-left: -18px;
-        margin-right: 21px;
+    .section-cards {
+        margin-top: 300px;
     }
 
     .section-cards h2 {
         text-align: center;
-        margin-left: -28px;
-        margin-top: 380px;
     }
 
     .cards {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-left: -55px;
+        display: flex;
+        flex-direction: column;
     }
-
-    .section-3 {
-        margin-top: 450px;
-    }
-
-    .section-3 h1 {
-        font-size: 25px;
-        margin-left: -36px;
-    }
-
-    .section-3 h3 {
-        font-size: 17px;
-        margin-left: -36px;
-        margin-top: 1px;
-    }
-
-    .button-2 {
-        margin-left: -35px;
-    }
-
-    .section-3 img {
-        margin-left: 23px;
-    }
-
-    .area-form h2  {
-        font-size: 18px;
-    }
-
-    .area-form {
-        margin-left: -37px;
-    }
-
-    .social {
-        margin-left: -40px;
-    }
-
-    .section-cards h2 {
-        margin-left: 1%;
-    }
-
-
 }
