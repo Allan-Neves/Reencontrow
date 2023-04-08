@@ -17,6 +17,8 @@ Esse é um código que eu fiz com a ajuda do [Jefferson Vasconcellos](https://ww
 
 Com este projeto, aprendi ainda mais sobre responsividade e flex-box! Consegui usufruir ainda mais a propriedade transform junto da pseudo-class :hover.
 
+(Toda a responsividade deste site foi feita 100% por mim.)
+
 ## Como Executar o Projeto
 
 Para executar o projeto, basta fazer o download ou clonar este repositório em seu computador. Em seguida, abra o arquivo index.html no seu navegador e a página será exibida.
