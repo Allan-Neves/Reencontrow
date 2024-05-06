@@ -6,7 +6,7 @@ Esse é um código que eu fiz com a ajuda do [Jefferson Vasconcellos](https://ww
 
 ## Demo
 
-[Clique aqui](https://allan-carlos.github.io/Reencontrow/) e você será redirecionado(a) para o site.
+[Clique aqui](https://allan-neves.github.io/Reencontrow/) e você será redirecionado(a) para o site.
 
 ## Tecnologias Usadas
 
